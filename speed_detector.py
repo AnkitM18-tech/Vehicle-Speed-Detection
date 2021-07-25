@@ -26,7 +26,7 @@ def estimateSpeed(location1, location2):
 
 #tracking multiple objects
 def trackMultipleObjects():
-    rectangleColor = (0, 255, 0)
+    rectangleColor = (0, 255, 255)
     frameCounter = 0
     currentCarID = 0
     fps = 0
