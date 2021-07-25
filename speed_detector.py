@@ -132,7 +132,7 @@ def trackMultipleObjects():
                     if (speed[i] == None or speed[i] == 0) and y1 >=275 and y1 <= 285:
                         speed[i] == estimateSpeed([x1,y1,w1,h1],[x2,y2,w2,h2])
 
-                    if speed[i] != None and y >= 100:
+                    if speed[i] != None and y >= 180:
                         cv2.putText(resultImage, str(int(speed[i]))+" km/h", int(x1 + w1/2), int(y1 - 5),cv2.FONT_HERSHEY_SIMPLEX,0.75,(0,0,100),2)
 
         cv2.imshow("Result",resultImage)
